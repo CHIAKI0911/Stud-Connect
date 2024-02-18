@@ -1,0 +1,72 @@
+/* Fllow_Genre_Settings.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin: 0; /* デフォルトのマージンを解除 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; /* 横幅いっぱいに広げる */
+    text-align: left; /* テキストを左寄せにする */
+    border-bottom: 1px solid #000; /* 下線を引く */
+    padding: 10px; /* 下線の下に余白を追加 */
+}
+
+.genre-container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top:auto;
+}
+
+.genre {
+    margin-right: 10px;
+    margin-right:200px;/*ジャンルとフォローボタンの間の空白設定*/
+    font-size:25px;
+}
+
+.follow-button {
+    margin-top: 10px;
+    font-size:20px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: auto;
+}
+
+a button {
+    background-color: lightgray;
+    font-size:25px;
+}
+
+a button:hover {
+    background-color: darkgray;
+}
